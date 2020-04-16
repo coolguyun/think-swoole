@@ -1,5 +1,5 @@
 {
-    "name": "topthink/think-swoole",
+    "name": "huosdk/think-swoole",
     "description": "Swoole extend for thinkphp",
     "license": "Apache-2.0",
     "authors": [
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\swoole\\": "src"
+            "huosdk\\swoole\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -30,7 +30,7 @@
     "extra": {
         "think": {
             "services": [
-                "think\\swoole\\Service"
+                "huosdk\\swoole\\Service"
             ],
             "config": {
                 "swoole": "src/config/swoole.php"
